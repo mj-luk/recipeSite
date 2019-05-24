@@ -1,0 +1,152 @@
+.mainbg{
+    background-color: #F2F2F2;
+}
+
+.windowbg{
+    background-color: #A3BFBC;
+}
+.tagbordermobile{
+    border-radius: 10px;
+    margin:25px;
+}
+
+.btn-dark {
+    color: #fff;
+    background-color: #648C72;
+    border-color: #648C72;
+}
+.badge-green{
+    font-family: "Cooper Black";
+    background-color: #648C72;
+    color: white;
+}
+.badge-red{
+    font-family: "Cooper Black";
+    background-color: #BB4B4A;
+    color: white;
+}
+.badge-norm{
+    font-family: "Cooper Black";
+    background-color: rgb(99, 134, 166);
+    color: white;
+}
+/* https://color.adobe.com/search?q=web%20retro */
+
+.logo{
+    float: left;
+    width: 50px;
+    font-family: 'Oswald', sans-serif;
+}
+.tagbutton{
+    float: left;
+    margin: 2px;
+  }
+.taglistmobile{
+    margin:10px;
+}
+.taglist{
+    padding-top: 10px;
+}
+.btn{
+    margin: 2px;
+}
+.navbar{
+    background-color: #D9D2C5;
+    font-family: 'Baloo Bhai', cursive;
+}
+.brandname{
+    padding-top: 0.1rem;
+    float: left;
+    font-size: 2rem;
+}
+a.nav-item{
+    font-size: 1.5rem;
+}
+h2.tag_tittle{
+    color: white;
+    padding: 8px;
+    padding-bottom: 2px;
+    font-family: 'Baloo Bhai', cursive;
+}
+h2.tag_tittle.mobile{
+    text-align: center;
+}
+
+/* hover on card, display description */
+
+ .recipe-desc {
+    display:none;
+ }
+ /* .recipe-card:hover .recipe-desc {
+    font-family: 'Baloo Bhai';
+    width:100%;
+    height:100%;
+    background:rgba(92, 75, 81, 0.9);
+    color: #fff;
+    font-size: 0.9rem;
+    position:absolute;
+    bottom:0;
+    left:0;
+    padding: 20px; 
+    display:inline-block;
+    -webkit-box-sizing:border-box;
+    -moz-box-sizing:border-box;
+    box-sizing:border-box;
+    border-radius: 4px; 
+ } */
+ .recipe-card {
+
+    position:relative;
+    display:inline-block;
+    transition: all 1.5s;
+    transform: translate(0px, 15px); 
+ }
+ a.recipe-card{
+    color: rgb(75, 94, 91);
+    font-family: 'Baloo Bhai', cursive;
+ }
+ a.recipe-card:hover{
+    color: rgb(75, 94, 91);
+    font-family: 'Baloo Bhai', cursive;
+ }
+ .recipe-card:hover {  
+    transition: all 1.5s;
+    transform: translate(0px, -0px);
+ }
+ .recipe-site-window {
+    margin:100px;
+    margin-top:20px;
+ }
+ .crop {
+    width: 80%;
+    height: 300px;
+    overflow: hidden;
+    border-radius: 14px;
+    
+}
+
+.crop img {
+    width: 70%;
+    border-radius: 14px;
+    /* margin-top: -50%; */
+}
+.center {
+    margin: auto;
+    width: 50%;
+  }
+
+
+/* Color Theme Swatches in Hex */
+.vintage-card-1-hex { color: #5C4B51; }
+.vintage-card-2-hex { color: #8CBEB2; }
+.vintage-card-3-hex { color: #F2EBBF; }
+.vintage-card-4-hex { color: #F3B562; }
+.vintage-card-5-hex { color: #F06060; }
+/* Color Theme Swatches in Hex */
+.pomegranate-explosion-1-hex { color: #63A69F; }
+.pomegranate-explosion-2-hex { color: #F2E1AC; }
+.pomegranate-explosion-3-hex { color: #F2836B; }
+.pomegranate-explosion-4-hex { background-color: #F2594B; }
+.pomegranate-explosion-5-hex { color: #CD2C24; }
+
+
